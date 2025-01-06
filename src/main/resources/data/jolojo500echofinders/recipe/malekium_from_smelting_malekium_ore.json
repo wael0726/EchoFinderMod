@@ -1,0 +1,15 @@
+{
+  "type" : "minecraft:smelting",
+  "category" : "misc",
+  "coocktingtime" : 200,
+  "experience" : 0.25,
+  "group" : "malekium",
+  "ingredient" : {
+      "item" : "jolojo500echofinders:malekium"
+  },
+
+  "result" : {
+    "count" : 1,
+    "id" : "jolojo500echofinders:ingot"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+  "key" : {
+    "M": {
+      "item" : "jolojo500echofinders:ingot"
+    }
+  },
+  "pattern" : [
+    "MMM",
+    "MMM",
+    "MMM"
+  ],
+
+  "result" : {
+    "count" : 1,
+    "id" : "jolojo500echofinders:malekiumblock"
+  }
+}

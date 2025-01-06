@@ -1,0 +1,13 @@
+{
+  "type" : "minecraft:crafting_shapeless",
+  "category" : "misc",
+  "ingredients" : [
+    {
+      "item" : "jolojo500echofinders:malekiumblock"
+    }
+  ],
+  "result" : {
+    "count" : 9,
+    "id" : "jolojo500echofinders:ingot"
+  }
+}
