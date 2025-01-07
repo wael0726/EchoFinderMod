@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "armor",
+  "key": {
+    "I": {
+      "item": "jolojo500echofinders:ingot"
+    }
+  },
+  "pattern": [
+    "I I",
+    "III",
+    "III"
+  ],
+  "result": {
+    "id": "jolojo500echofinders:malekiumchestplate",
+    "count": 1
+  }
+}

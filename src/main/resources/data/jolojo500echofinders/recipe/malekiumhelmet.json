@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "armor",
+  "key": {
+    "I": {
+      "item": "jolojo500echofinders:ingot"
+    }
+  },
+  "pattern": [
+    "III",
+    "I I"
+  ],
+  "result": {
+    "id": "jolojo500echofinders:malekiumhelmet",
+    "count": 1
+  }
+}

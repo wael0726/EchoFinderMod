@@ -41,5 +41,19 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.MALEKIUM, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.MALEKIUM, -3.0f, 0))));
 
-    //BlockItems, almost the same syntax
+    public static final DeferredItem<ArmorItem> MALEKIUM_HELMET = ITEMS.register("malekiumhelmet",
+            () -> new ArmorItem(ModArmorMaterials.MALEKIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(34))));
+
+    public static final DeferredItem<ArmorItem> MALEKIUM_CHESTPLATE = ITEMS.register("malekiumchestplate",
+            () -> new ArmorItem(ModArmorMaterials.MALEKIUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(34))));
+
+    public static final DeferredItem<ArmorItem> MALEKIUM_LEGGINGS = ITEMS.register("malekiumleggings",
+            () -> new ArmorItem(ModArmorMaterials.MALEKIUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(34))));
+
+    public static final DeferredItem<ArmorItem> MALEKIUM_BOOTS = ITEMS.register("malekiumboots",
+            () -> new ArmorItem(ModArmorMaterials.MALEKIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(34))));
 }
