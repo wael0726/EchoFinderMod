@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:plains",
+    "minecraft:deep_dark"
+  ],
+  "features": "jolojo500echofinders:oreblock",
+  "step": "underground_ores"
+}
