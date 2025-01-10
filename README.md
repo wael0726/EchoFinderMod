@@ -4,6 +4,7 @@ Installation information
 ![Capture d’écran 2025-01-09 211418](https://github.com/user-attachments/assets/91050914-68c2-4e60-ab92-cf8e1d267846)
 ![Capture d’écran 2025-01-09 211442](https://github.com/user-attachments/assets/42bcd543-c2bf-466f-adff-f5ae4f68f698)
 Spawns exclusively in the Deep Dark 
+============
 ![Capture d’écran 2025-01-09 212442](https://github.com/user-attachments/assets/02b3ed61-281a-4cf6-90b9-19689c72b4e2)
 
 Mapping Names:
