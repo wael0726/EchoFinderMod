@@ -8,7 +8,7 @@ Spawns exclusively in the Deep Dark
 ![Capture d’écran 2025-01-09 212442](https://github.com/user-attachments/assets/02b3ed61-281a-4cf6-90b9-19689c72b4e2)
 Hammer mine 3x3
 ============
-![Capture d’écran 2025-01-10 211300.png](../../Images/Screenshots/Capture%20d%E2%80%99%C3%A9cran%202025-01-10%20211300.png)
+![Capture d’écran 2025-01-10 211300](https://github.com/user-attachments/assets/c5997b02-d858-41f8-87a4-da4fa34facbf)
 
 Mapping Names:
 ============
