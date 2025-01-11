@@ -1,6 +1,7 @@
 package com.jolojo500.echofinders.item;
 
 import com.jolojo500.echofinders.EchoFindersMod;
+import com.jolojo500.echofinders.item.custom.HammerItem;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -12,8 +13,6 @@ public class ModItems {
             EchoFindersMod.MODID
     );
 
-    //TODO see if the current implementation in the main mod file works, if it does this function is only for good looking code
-    // either implement (ModItems.register(modeEventBus) instead of the current one or delete it
     public static  void register (IEventBus eventBus){
         ITEMS.register(eventBus);
     }
@@ -56,4 +55,8 @@ public class ModItems {
     public static final DeferredItem<ArmorItem> MALEKIUM_BOOTS = ITEMS.register("malekiumboots",
             () -> new ArmorItem(ModArmorMaterials.MALEKIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                     new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(34))));
+
+    public static final DeferredItem<HammerItem> MALEKIUM_HAMMER = ITEMS.register("malekiumhammer",
+            () -> new HammerItem(ModToolTiers.MALEKIUM, new Item.Properties()
+                    .attributes(HammerItem.createAttributes(ModToolTiers.MALEKIUM, 7F, -3.5f))));
 }

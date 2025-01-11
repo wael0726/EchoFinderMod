@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "tools",
+  "key": {
+    "M": {
+      "item": "jolojo500echofinders:ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MMM",
+    " S "
+  ],
+  "result": {
+    "id": "jolojo500echofinders:malekiumhammer",
+    "count": 1
+  }
+}

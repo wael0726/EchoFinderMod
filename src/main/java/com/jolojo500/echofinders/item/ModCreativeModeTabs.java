@@ -29,6 +29,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.MALEKIUM_AXE.get());
                         output.accept(ModItems.MALEKIUM_SHOVEL.get());
                         output.accept(ModItems.MALEKIUM_HOE.get());
+                        output.accept(ModItems.MALEKIUM_HAMMER.get());
 
                         output.accept(ModItems.MALEKIUM_HELMET.get());
                         output.accept(ModItems.MALEKIUM_CHESTPLATE.get());
