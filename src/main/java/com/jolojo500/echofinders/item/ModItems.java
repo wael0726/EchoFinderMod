@@ -1,6 +1,7 @@
 package com.jolojo500.echofinders.item;
 
 import com.jolojo500.echofinders.EchoFindersMod;
+import com.jolojo500.echofinders.item.custom.EchoFinderItem;
 import com.jolojo500.echofinders.item.custom.HammerItem;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
@@ -59,4 +60,9 @@ public class ModItems {
     public static final DeferredItem<HammerItem> MALEKIUM_HAMMER = ITEMS.register("malekiumhammer",
             () -> new HammerItem(ModToolTiers.MALEKIUM, new Item.Properties()
                     .attributes(HammerItem.createAttributes(ModToolTiers.MALEKIUM, 7F, -3.5f))));
+
+    public static final DeferredItem<EchoFinderItem> ECHO_FINDER = ITEMS.registerItem("echofinder", EchoFinderItem::new,
+            new Item.Properties().stacksTo(1)
+            ); //need to double check
+
 }

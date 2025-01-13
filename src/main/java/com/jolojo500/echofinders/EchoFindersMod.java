@@ -1,6 +1,7 @@
 package com.jolojo500.echofinders;
 
 import com.jolojo500.echofinders.block.ModBlocks;
+import com.jolojo500.echofinders.component.ModDataComponents;
 import com.jolojo500.echofinders.item.ModCreativeModeTabs;
 import com.jolojo500.echofinders.item.ModItems;
 import net.minecraft.world.level.block.TntBlock;
@@ -58,6 +59,7 @@ public class EchoFindersMod {
 
         ModItems.ITEMS.register(modEventBus);
         ModBlocks.BLOCKS.register(modEventBus);
+        ModDataComponents.DATA_COMPONENT_TYPES.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.

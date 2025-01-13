@@ -35,6 +35,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.MALEKIUM_CHESTPLATE.get());
                         output.accept(ModItems.MALEKIUM_LEGGINGS.get());
                         output.accept(ModItems.MALEKIUM_BOOTS.get());
+
+                        output.accept(ModItems.ECHO_FINDER.get());
                     })
                     .build());
 

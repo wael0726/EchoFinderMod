@@ -1,0 +1,6 @@
+{
+  "parent" : "minecraft:item/",
+  "textures":{
+    "layer0": "jolojo500echofinders:item/echo_finder"
+  }
+}
